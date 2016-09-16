@@ -13,7 +13,7 @@ class StateStore(Script):
         self.install_packages(env)
 
         cmd = 'yum-config-manager --add-repo  ' \
-              'http://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/cloudera-cdh5.repo'
+              'http://archive.cloudera.com/cdh5/redhat/7/x86_64/cdh/cloudera-cdh5.repo'
 
         Execute('echo "Running ' + cmd + '"')
         Execute(cmd)
