@@ -6,7 +6,6 @@ from resource_management.core.base import Fail
 from resource_management.core.exceptions import ComponentIsNotRunning
 from subprocess import call
 
-
 class ImpalaCatalog(Script):
     #Call setup.sh to install the service
     def install(self, env):
