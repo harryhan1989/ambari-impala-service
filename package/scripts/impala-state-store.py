@@ -14,6 +14,10 @@ class StateStore(Script):
         # Install packages listed in metainfo.xml
         self.install_packages(env)
 
+        cmd = 'yum -y install yum-utils'
+        Execute('echo "Running ' + cmd + '"')
+        Execute(cmd)
+
         cmd = 'yum-config-manager --add-repo  ' \
               'http://archive.cloudera.com/cdh5/redhat/7/x86_64/cdh/cloudera-cdh5.repo'
 

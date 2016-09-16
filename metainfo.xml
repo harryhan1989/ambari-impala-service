@@ -50,8 +50,7 @@
               <osSpecific>
                 <osFamily>redhat7</osFamily>
                 <packages>
-                   <package><name>git</name></package>    
-                   <package><name>apache-maven-3.2*</name></package>                                           
+                   <package><name>git</name></package>                                       
                 </packages>
               </osSpecific>
               
