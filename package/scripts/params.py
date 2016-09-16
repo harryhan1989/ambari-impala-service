@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 from resource_management import *
 from resource_management.libraries.script.script import Script
 import sys, os, glob
